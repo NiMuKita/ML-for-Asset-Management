@@ -68,6 +68,7 @@ def mutual_info(x: array_like, y: array_like, bins: int, normalised: bool = Fals
 
 
 def join_entropy(x: array_like, y: array_like, bins: int) -> float:
+    
     """
     Function that, for a given random variables `x` and `y`,
     with a given partition of `bins`, calculates the Shannon joint entropy.
@@ -180,6 +181,7 @@ def variation_info(x: array_like, y: array_like, bins: int, normalised: bool = F
 
 
 def n_bins(n_obs: int, corr: int = None) -> int:
+    
     """
     Function for finding optimal number of bins for a given
     dataset of continuous random variables.
